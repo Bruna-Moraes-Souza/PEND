@@ -1,0 +1,25 @@
+h1{
+    color:red;
+}
+h2 {
+    color:blue
+}
+
+/*TABLES*/
+@media (min-width: 768px) and (max-width: 102px ) {
+    h1{
+        color:blue;
+    }
+    h2{
+        color:yellow
+    }
+}
+/* Celular */
+@media (min-width: 768px) and (max-width: 102px ) {
+    h1{
+        color:blue;
+    }
+    h2{
+        color:yellow
+    }
+}
