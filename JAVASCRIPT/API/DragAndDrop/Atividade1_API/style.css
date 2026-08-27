@@ -1,0 +1,53 @@
+body {
+    background-color: #56a9d6;
+    font-family: Arial;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #173b72;
+}
+
+h4 {
+    color: #173b72;
+}
+
+body > div {
+    background-color: rgb(213, 254, 255);
+    width: 80%;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#Matematica {
+    border: 6px solid #9a0000;
+}
+
+#Historia {
+    border: 6px solid #b6ad0b;
+}
+
+#materias {
+    border: 6px solid #0ead2e;
+}
+
+.container {
+    background-color: #18798c;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+#Tarefas {
+    background-color: white;
+    min-height: 100px;
+    border: 2px dashed #173b72;
+    padding: 10px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #9bb8d8;
+}
