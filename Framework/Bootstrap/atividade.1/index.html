@@ -4,16 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Casa Aurora | Catálogo</title>
-
-  <!-- Bootstrap 5 via CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Nosso CSS (depois do Bootstrap) -->
   <link href="style.css" rel="stylesheet">
 </head>
 <body>
 
-  <!-- 1. CABEÇALHO -->
+  <!-- MENU -->
   <nav class="navbar navbar-expand-lg navbar-dark barra sticky-top">
     <div class="container">
       <a class="navbar-brand fw-bold" href="#inicio">Casa Aurora</a>
@@ -30,7 +26,7 @@
     </div>
   </nav>
 
-  <!-- 2. DESTAQUE (carrossel = componente extra) -->
+  <!-- DESTAQUE (carrossel) -->
   <header id="inicio" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner text-center text-white">
 
@@ -67,14 +63,11 @@
     </button>
   </header>
 
-  <!-- 3. CATÁLOGO -->
+  <!-- PRODUTOS -->
   <section id="produtos" class="container py-5">
-    <div class="text-center mb-5">
-      <h2>Nossos Produtos</h2>
-      <p class="text-muted">Peças selecionadas para deixar cada ambiente mais bonito.</p>
-    </div>
+    <h2 class="text-center">Nossos Produtos</h2>
+    <p class="text-center text-muted mb-5">Peças selecionadas para deixar cada ambiente mais bonito.</p>
 
-    <!-- Grid: 1 coluna no celular, 2 no tablet, 3 no desktop -->
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
 
       <div class="col">
@@ -146,17 +139,14 @@
     </div>
   </section>
 
-  <!-- 4. CONTATO -->
+  <!-- CONTATO -->
   <section id="contato" class="contato py-5">
     <div class="container">
-      <div class="text-center mb-5">
-        <h2>Fale Conosco</h2>
-        <p class="text-muted">Tem alguma dúvida ou quer fazer um pedido? Entre em contato.</p>
-      </div>
+      <h2 class="text-center">Fale Conosco</h2>
+      <p class="text-center text-muted mb-5">Tem alguma dúvida ou quer fazer um pedido? Entre em contato.</p>
 
       <div class="row g-4 justify-content-center">
 
-        <!-- Informações de contato -->
         <div class="col-md-5">
           <h5 class="mb-3">Nossos canais</h5>
           <p class="mb-2"><strong>E-mail:</strong><br>
@@ -165,44 +155,31 @@
           <p class="mb-2"><strong>Telefone:</strong><br>(35) 99999-0000</p>
           <p class="mb-2"><strong>Endereço:</strong><br>Rua das Flores, 123 – Centro</p>
           <p class="mb-4"><strong>Horário:</strong><br>Segunda a sábado, das 9h às 18h</p>
-          <a href="https://wa.me/5535999990000" target="_blank" class="btn btn-success">
-            Chamar no WhatsApp
-          </a>
+          <a href="https://wa.me/5535999990000" target="_blank" class="btn btn-success">Chamar no WhatsApp</a>
         </div>
 
-        <!-- Formulário -->
         <div class="col-md-6">
-          <div class="card border-0 shadow-sm">
-            <div class="card-body p-4">
-              <h5 class="mb-3">Envie uma mensagem</h5>
-              <form action="mailto:contato@casaaurora.com.br" method="post" enctype="text/plain">
-                <div class="mb-3">
-                  <label for="nome" class="form-label">Nome</label>
-                  <input type="text" class="form-control" id="nome" name="Nome" required>
-                </div>
-                <div class="mb-3">
-                  <label for="email" class="form-label">E-mail</label>
-                  <input type="email" class="form-control" id="email" name="E-mail" required>
-                </div>
-                <div class="mb-3">
-                  <label for="mensagem" class="form-label">Mensagem</label>
-                  <textarea class="form-control" id="mensagem" name="Mensagem" rows="4" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-comprar w-100">Enviar mensagem</button>
-              </form>
-            </div>
-          </div>
+          <form class="card border-0 shadow-sm card-body p-4" action="mailto:contato@casaaurora.com.br" method="post" enctype="text/plain">
+            <h5 class="mb-3">Envie uma mensagem</h5>
+            <label for="nome" class="form-label">Nome</label>
+            <input type="text" class="form-control mb-3" id="nome" name="Nome" required>
+            <label for="email" class="form-label">E-mail</label>
+            <input type="email" class="form-control mb-3" id="email" name="E-mail" required>
+            <label for="mensagem" class="form-label">Mensagem</label>
+            <textarea class="form-control mb-3" id="mensagem" name="Mensagem" rows="4" required></textarea>
+            <button type="submit" class="btn btn-comprar w-100">Enviar mensagem</button>
+          </form>
         </div>
 
       </div>
     </div>
   </section>
 
-  <!-- 5. RODAPÉ -->
+  <!-- RODAPÉ -->
   <footer class="rodape text-center py-3">
     &copy; 2026 Casa Aurora. Todos os direitos reservados.
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-</html>-*3
+</html>
