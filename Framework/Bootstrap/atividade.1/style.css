@@ -1,0 +1,71 @@
+:root {
+  --cor-barra: #212529;          
+
+  --cor-slide-1: #0d6efd;       
+  --cor-slide-2: #17005e;        
+  --cor-slide-3: #7ebdfb;       
+
+  --cor-botao: #212529;         
+  --cor-botao-hover: #03896a;    
+  --cor-preco: #0cbbad;          
+
+  --cor-contato: #f8f9fa;       
+
+  --cor-rodape: #212529;        
+  --cor-texto-rodape: #ffffff;   
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Menu */
+.barra {
+  background-color: var(--cor-barra);
+}
+
+/* Carrossel */
+.slide {
+  height: 400px;
+}
+
+.slide-1 { background-color: var(--cor-slide-1); }
+.slide-2 { background-color: var(--cor-slide-2); }
+.slide-3 { background-color: var(--cor-slide-3); }
+
+/* Cards */
+.card {
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.preco {
+  color: var(--cor-preco);
+}
+
+.btn-comprar {
+  background-color: var(--cor-botao);
+  border-color: var(--cor-botao);
+  color: #ffffff;
+}
+
+.btn-comprar:hover {
+  background-color: var(--cor-botao-hover);
+  border-color: var(--cor-botao-hover);
+  color: #ffffff;
+}
+
+/* Contato */
+.contato {
+  background-color: var(--cor-contato);
+}
+
+/* Rodapé */
+.rodape {
+  background-color: var(--cor-rodape);
+  color: var(--cor-texto-rodape);
+}
